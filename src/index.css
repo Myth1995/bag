@@ -1,0 +1,36 @@
+body {
+  background-color: #1b1e22;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, CocoSharp, BsFont, LemonMilk, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: local('CocoSharp'), url(./fonts/Coco-Sharp-Regular-trial.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'LemonMilk';
+  src: local('LemonMilk'), url(./fonts/LEMONMILK-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: 'BsFont';
+  src: local('BsFont'), url(./fonts/NetworkFreeVersion.ttf) format("truetype");
+}
